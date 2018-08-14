@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:orderInCategory="1"
+        android:title="Go to:"
+        android:enabled="false">
+    </item>
+    <item
+        android:id="@+id/gotomap"
+        android:orderInCategory="2"
+        android:title="Map">
+    </item>
+    <!--item
+        android:id="@+id/gotomsg"
+        android:orderInCategory="3"
+        android:title="Team's secret palns">
+    </item-->
+    <!--item
+        android:id="@+id/gototimeline"
+        android:orderInCategory="4"
+        android:title="Timeline">
+    </item-->
+    <item
+        android:id="@+id/gotologout"
+        android:orderInCategory="5"
+        android:title="Log out">
+    </item>
+</menu>
